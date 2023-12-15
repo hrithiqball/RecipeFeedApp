@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecipeFeedApp.Client\RecipeFeedApp.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\github-hrithiqball\RecipeFeedApp\RecipeFeedApp\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\github-hrithiqball\RecipeFeedApp\RecipeFeedApp\.editorconfig" />
+  </ItemGroup>
+
+</Project>
